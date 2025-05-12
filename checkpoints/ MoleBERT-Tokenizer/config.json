@@ -1,0 +1,18 @@
+{
+  "_name_or_path": "checkpoints/Tokenizer/Vocab_Size_512",
+  "architectures": [
+    "MoleBERTTokenizer"
+  ],
+  "atom_vocab_size": 512,
+  "gnn_encoder_dropout": 0.0,
+  "gnn_encoder_embedding_dim": 300,
+  "gnn_encoder_jk": "last",
+  "gnn_encoder_layer_hidden_dim": 600,
+  "gnn_encoder_num_layers": 5,
+  "graph_reconstruct_dropout": 0.0,
+  "graph_reconstruct_hidden_dim": 600,
+  "re_build_edge": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.32.1",
+  "vq_commitment_cost": 0.25
+}
